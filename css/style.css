@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.overlay{
+    background-image: url(img/netiix\ photo.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+body{
+    background-color: black;
+}
+.blur{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.4));
+    z-index: -1;
+}
+.dropdown{
+   
+
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.love{
+    background-color: black;
+   
+}
+.hr{
+    width: 100%;
+    height: 5px;
+    background-color: gray
+}
+.main{
+    background-color: black;
+}
+
+.footer{
+    background-color: black;
+ 
+}
+
+.footer .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links {
+    display: flex;
+    flex-direction:column;
+  }
+  .accordion-item{
+    background-color: black;
+    color: white;
+  }
+
+  .accordion {
+	--bs-accordion-btn-color: white;
+	--bs-accordion-btn-bg: rgb(0,0,0,0.9);
+	--bs-accordion-active-color:rgb(245, 238, 238);
+	--bs-accordion-active-bg:black;
+}
